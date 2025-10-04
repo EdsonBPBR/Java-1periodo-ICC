@@ -1,5 +1,4 @@
 package ListaExercicio01_ICC;
-import com.sun.tools.jconsole.JConsoleContext;
 
 import java.util.Scanner;
 
@@ -13,6 +12,7 @@ public class Exercicio03 {
         System.out.print("Informe o consolumo [Litros]: ");
         double consumo = entrada.nextDouble();
 
+        entrada.close();
         double razao = distancia / consumo;
 
         String saida_razao = String.format("%.2f Km/L", razao);

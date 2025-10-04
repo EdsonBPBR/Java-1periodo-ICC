@@ -9,6 +9,7 @@ public class Exercicio04 {
         String nome = ler.next();
         double salario = ler.nextDouble();
         double valor_vendas = ler.nextDouble();
+        ler.close();
         double resultado = salario + (valor_vendas * 0.15);
         System.out.println(resultado);
 

@@ -7,6 +7,7 @@ public class Exercicio01 {
         double numero1, numero2, soma;
         numero1 = ler.nextDouble();
         numero2 = ler.nextDouble();
+        ler.close();
         soma = numero1 + numero2;
         System.out.println(soma);
     }
