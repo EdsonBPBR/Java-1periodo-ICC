@@ -8,7 +8,7 @@ public class do_while {
 
         n1 = entrada.nextInt();
         n2 = entrada.nextInt();
-
+        entrada.close();
         if (n1 > n2) {
             System.out.println("Não há valores no intervalo");
         }

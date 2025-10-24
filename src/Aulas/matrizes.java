@@ -14,7 +14,7 @@ public class matrizes {
                 matriz[i][j] = dado;
             }
         }
-
+        entrada.close();
         // saida
         for (int k = 0; k < 4; k ++) {
             System.out.printf("%s %s %s %s", matriz[k][0], matriz[k][1], matriz[k][2], matriz[k][3]);
