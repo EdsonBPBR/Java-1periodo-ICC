@@ -44,9 +44,11 @@ public class FormasGeometricas {
             System.out.println();
             System.out.printf("%.2f", perimetro);
         }
+        
 
         else {
             System.out.println("Nenhuma figura selecionada");
         }
+        entrada.close();
     }
 }

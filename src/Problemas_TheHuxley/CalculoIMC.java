@@ -7,6 +7,7 @@ public class CalculoIMC {
         double peso = ler.nextDouble();
         double altura = ler.nextDouble();
         double imc = (peso / Math.pow(altura, 2));
+        ler.close();
 
         String saida_imc = String.format("%.2f", imc);
         System.out.print(saida_imc);

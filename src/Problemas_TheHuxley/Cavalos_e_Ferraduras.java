@@ -7,6 +7,7 @@ public class Cavalos_e_Ferraduras {
 
         System.out.println("Digite a quantidade de cavalos");
         int n_cavalos = ler.nextInt();
+        ler.close();
         String saida = String.format("Sao necessarias %s ferraduras", n_cavalos*4);
         System.out.println(saida);
         

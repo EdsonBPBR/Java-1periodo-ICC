@@ -7,6 +7,7 @@ public class ComaBem {
         double valor = ler.nextDouble();
         double total = valor * 1.1;
         String saida_total = String.format("%.2f", total);
+        ler.close();
         System.out.print(saida_total);
     }
 }
